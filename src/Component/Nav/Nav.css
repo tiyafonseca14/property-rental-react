@@ -215,14 +215,31 @@ a.active {
 @media (max-width: 500px) {
   #btn2 {
     border: none;
-    padding: 0;
+    padding: 8px;
   }
   #svg2 {
-    display: none;
+    display: block;
+    width: 28px;
+    height: 28px;
   }
   #svg1 {
     width: 25px;
     height: 25px;
     fill: black;
+  }
+  .hamburger {
+    right: 5%;
+    top: 70px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .search input {
+    display: none;
+  }
+
+  .search {
+    gap: 0;
   }
 }
