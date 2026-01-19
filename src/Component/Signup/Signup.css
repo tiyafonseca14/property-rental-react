@@ -59,3 +59,20 @@
   border: none;
   margin-top: 40px;
 }
+@media (max-width: 500px) {
+  #signup {
+    height: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding-top: 220px;
+  }
+
+  #signup form {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  #signuptitle {
+    font-size: 28px;
+  }
+}
